@@ -6,7 +6,7 @@
 
 # Fonction qui retourne la somme de deux nombres
 def somme(a, b):
-  return a+b
+  return str(a+b)
 
 # Saisi utilisateur
 nb1 = input('Veuillez saisir un nombre: ')
@@ -17,7 +17,7 @@ try:
   nb1 = int(nb1)
   nb2 = int(nb2)
 except ValueError:
-  print('Vous n'avez pas saisi des nombres entiers')
+  print('Vous n\'avez pas saisi des nombres entiers')
   exit()
 
 # Affichage du résultat
